@@ -21,9 +21,27 @@ Para o armazenamento das imagens dos livros foi utilizado o active_storage
 
 # Configuração de ambiente
 
+Antes é necessário que o docker esteja instalado em seu ambiente de desenvolvimento, para mais informações acesse o link
+
+[GET_DOCKER](https://docs.docker.com/get-docker/)
+
 Para iniciar o ambiente, basta clonar o projeto, acessa-lo via terminal e executar o comando
 
 ```
 docker-compose up
 ```
 
+Após startar o projeto, rodar os comandos
+
+```
+  docker-compose run web rails db:create
+  docker-compose run web rails db:migrate
+```
+
+Na sequencia, será necessário criar um usuário, clicando em Sign up
+
+Para acessar a rota de usuário basta utilizar a URL
+ - /books
+
+Para acessar a rota de admistrador basta utilizar a URL
+ - /admin/book
