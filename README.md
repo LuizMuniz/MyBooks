@@ -18,3 +18,12 @@ Para a estilização do form foi utilizado a gem rails_admin_rollincode '1.0'
 Essa gem utiliza scss para a estilização das classes com variáveis globais.
 
 Para o armazenamento das imagens dos livros foi utilizado o active_storage
+
+# Configuração de ambiente
+
+Para iniciar o ambiente, basta clonar o projeto, acessa-lo via terminal e executar o comando
+
+```
+docker-compose up
+```
+
