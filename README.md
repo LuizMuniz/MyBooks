@@ -1,5 +1,4 @@
-# MyBooks
-Teste Zygo
+# README
 
 Sistema de livros desenvolvido como teste para a empresa Zygo
 

@@ -1,0 +1,28 @@
+<div style="width: 100%; height: 60px">
+  <h1 style="">Livros</h1>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Titulo</th>
+      <th>Descrição</th>
+      <th>Capa</th>
+    </tr>
+   </thead>
+   <tbody>
+   <% @books.map do |book| %>
+    <tr>
+     <td>
+       <%= book.title %>
+     </td>
+     <td>
+       <%= book.description %>
+     </td>
+     <td>
+      <img style="width: 50px; height: 50px;" src="https://4.bp.blogspot.com/-9Nl6gi1oAFA/XPB-0x2GXJI/AAAAAAAAPQA/OaEOIpRc6gQKX5qvjZmZWXjWWRi7MiPLACK4BGAYYCw/s1600/edwarren.PNG">
+     </td>
+    </tr>
+   <% end %> 
+  </tbody>
+</table>
